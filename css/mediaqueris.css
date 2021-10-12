@@ -1,0 +1,115 @@
+@media (max-width: 280px){
+  header .container .slider .slider-item .item .perfil-text h1{
+    font-size: 2.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  header .container .slider .slider-item .item .img-contenedor{
+    width: 175px; height: 175px;
+  }
+
+  main #about .container .parrafos{
+    width: 90%;
+    margin: auto;
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: #666666;
+    text-align: justify;
+  }
+
+  #projects .container .row .col-12 .proyecto-item{
+  position: relative;
+  width: 90%;
+  height: 600px;
+  margin: auto;
+  border-radius: 15px;
+}
+ }
+
+@media (max-width: 768px) {
+  main #skills .container .row .col-12 .skill-item{
+    margin: 15px auto;
+  }
+
+  aside ul{
+    flex-direction: row;
+  }
+
+  aside ul li{
+    margin: 0 15px ;
+  }
+ }
+
+@media (max-width: 992px) {
+  header{
+    position: relative;
+  }
+
+  header .cabecera span{
+    display: block;
+    z-index: 500
+  }
+
+  header .cabecera .menu{
+    position: absolute;
+    top: 0px; left: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background: #00000080;
+    margin-top: -5000px;
+    transition: .5s all;
+  }
+
+  header .cabecera .menu-active{
+    margin: 0
+  }
+
+  header .cabecera .menu li{
+    margin: 15px 0
+  }
+
+  header .cabecera .menu li a{
+    color: #ffffff;
+    font-size: 2.1rem
+  }
+
+  .active{
+    margin: 0
+  }
+
+  .icon-active{
+    display: block;
+  }
+
+  .icon-desactive{
+    display: none
+  }
+
+  main #skills .container .row .col-12 .skill-item{
+    margin: 15px auto;
+  }
+
+  main #skills .container{
+    padding: 20px 0;
+  }
+
+  #projects .container .row .col-12{
+    margin: 15px 0;
+  }
+
+
+
+}
+
+
+@media (max-width: 1200px) { 
+  main #skills .container{
+    padding: 10px 0;
+  }
+ }
+
+@media (max-width: 1400px) {  }

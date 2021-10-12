@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Castillo --Diseñador web--</title>
+    <!-- css y bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueris.css">
+    <!-- fuentes  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- iconos  -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bg-light">
+    <header>
+      <img src="images/bg-header.jpg" alt="" class="bg-header">
+      <nav class="cabecera">
+          <div class="titulo-menu">
+            <a href="#">
+              <h2>Web Develoment</h2>
+            </a>
+          </div>
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="#about" class="menu-enlace">Sobre mi</a>
+              </li>
+              <li class="menu-item">
+                <a href="#skills" class="menu-enlace">Skills</a>
+              </li>
+              <li class="menu-item">
+                <a href="#projects" class="menu-enlace">Proyectos</a>
+              </li>
+              <li class="menu-item">
+                <a href="#contacts" class="menu-enlace">Contactame</a>
+              </li>
+            </ul>
+            <span class="btn-menu">
+              <div class="barras icon-active">
+                <i class="bx bx-menu icon-active"></i>
+              </div>
+              <div class="cerrar icon-desactive">
+                <i class="bx bx-x icon-desactive"></i>
+              </div>
+            </span>
+      </nav>
+      <div class="container">
+        <section class="slider">
+          <div class="slider-item">
+              <article class="item text-center">
+                <div class="img-contenedor">
+                  <img src="images/profile.jpg" alt="">
+                </div>
+                <div class="perfil-text text-white text-center">
+                  <h1>David Castillo</h1>
+                  <h2>Desarrollador Web</h2>
+                </div>
+              </article>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="bg-white reveal">
+        <div class="container text-center">
+          <h2 class="titulos">
+            Sobre mi
+          </h2>
+          <p class="parrafos">
+            Soy un Frontend Developer, tengo 19 años, soy aficionado a la tecnologia y a aprender cosas nuevas.<br>
+            puedo trabajar en equipo o solo, mi meta es aprender mas sobre programacion web y desarrollo de videojuegos
+          </p>
+          <a href="docs/curriculum.pdf" class="btn btn-primary" download="curriculum.pdf" target="_blank">
+            Descargar CV
+          </a>
+        </div>
+      </section>
+
+      <section id="skills" class="bg-dark reveal">
+        <h2 class="text-center text-white pt-3 titulos">Skills</h2>
+        <div class="container">
+          <div class="row my-2 py-2">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/html.png" alt="" >
+                  <div class="hover">
+                    <h2>HTML</h2>
+                    <p>Lenguaje de etiquetas</p>
+                  </div>
+                </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/css.png" alt="">
+                  <div class="hover">
+                    <h2>CSS</h2>
+                    <p>Lenguaje de estilos en cascadas</p>
+                  </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/javascript.png" alt="">
+                  <div class="hover">
+                    <h2>Javascript</h2>
+                    <p>Lenguaje de programacion</p>
+                  </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/bootstrap.png" alt="">
+                  <div class="hover">
+                    <h2>Bootstrap</h2>
+                    <p>Frameword de CSS</p>
+                  </div>
+              </article>
+            </div>
+          </div>
+          <div class="row my-2  py-2">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">      
+                  <img src="images/node.png" alt="">
+                  <div class="hover">
+                    <h2>Node Js</h2>
+                    <p>Entorno de ejecucion de javascript</p>
+                  </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/git.png" alt="">
+                  <div class="hover">
+                    <h2>GIT</h2>
+                    <p>Controlador de versiones</p>
+                  </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/github.png" alt="" >
+                  <div class="hover">
+                    <h2>Github</h2>
+                    <p>Creador de repositorios en internet</p>
+                  </div>
+              </article>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <article class="skill-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/photoshop.png" alt="">
+                  <div class="hover">
+                    <h2>Photoshop</h2>
+                    <p>Editor de imagenes</p>
+                  </div>
+              </article>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+
+      <section id="projects" class="reveal">
+        <h2 class="titulos text-center">Mis proyectos</h2>
+        <div class="container mt-md-3">
+          <div class="row">
+            <div class="col-12 col-md-6 ">
+              <article class="proyecto-item border">
+                <img src="images/proyecto1.jpg" alt="" class="img-proyectos">
+                <div class="proyectos-hover">
+                  <h2>Landing page "BlueApp"</h2>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/David210-web/Landing-page.git" target="_blank">
+                        <i class='bx bxl-github'></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://david210-web.github.io/blueapp.github.io/" target="_blank">
+                        <i class='bx bx-link-external' ></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-md-6 ">
+              <article class="proyecto-item border">
+                <img src="images/proyecto2.jpg" alt="" class="img-proyectos">
+                <div class="proyectos-hover">
+                  <h2>Pokedex hecha con fetch</h2>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/David210-web/pokedex.git" target="_blank">
+                        <i class='bx bx-link-external' ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://david210-web.github.io/pokedex/" target="_blank">
+                        <i class='bx bxl-github'></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 ">
+              <article class="proyecto-item border">
+                <img src="images/proyecto3.jpg" alt="" class="img-proyectos">
+                <div class="proyectos-hover">
+                  <h2>Sitio web "Online Edu"</h2>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/David210-web/School-website.git" target="_blank">
+                        <i class='bx bxl-github'></i>
+
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://david210-web.github.io/schoolwebsite.github.io/" target="_blank">
+                        <i class='bx bx-link-external' ></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <div class="col-12 col-md-6 ">
+              <article class="proyecto-item border">
+                <img src="images/proyecto4.jpg" alt="" class="img-proyectos">
+                <div class="proyectos-hover">
+                  <h2>Sitio web "World Games"</h2>
+                  <ul>
+                    <li>
+                      <a href="https://github.com/David210-web/worldgames.git" target="_blank">
+                        <i class='bx bx-link-external' ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://david210-web.github.io/worldgames/" target="_blank">
+                        <i class='bx bxl-github'></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Launch demo modal
+            </button> -->
+            <!-- Modal-->
+            
+          </div>
+        </div>
+      </section>
+      <section id="contacts" class="reveal">
+        <h2 class="titulos text-center">Contactame</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="form-container" id="formulario">
+                <form action="email.php" method="POST" onsubmit="return validarFormulario();">
+                  <div class="mb-3 input-container">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="helpId" placeholder="Inserte Nombre" autocomplete="off" required>
+                  </div>
+                  <div class="mb-3 input-container">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" id="email"  aria-describedby="helpId" placeholder="Inserte Email" autocomplete="off" required>
+                  </div>
+                  <div class="mb-3 input-container">
+                    <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" required></textarea>
+                  </div>
+                  <div class="mb-3 input-container">
+                    <input type="submit" class="btn btn-primary" value="Enviar mensaje" id="btn-form">
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <aside>
+                <h2 class="text-center">Encuentrame tambien en:</h2>
+              <ul>
+                <li>
+                  <a href="#" class="linkedin-link">
+                    <i class='bx bxl-linkedin-square'></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/David210-web" class="github-link">
+                    <i class='bx bxl-github' ></i>
+                   
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/connery_7918/" class="instagram-link">
+                    <i class='bx bxl-instagram' ></i>
+                    
+                  </a>
+                </li>
+              </ul>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark reveal">
+      <h2 class="text-white text-center py-4">2021 Portafolio hecho por David Castillo (Osea YO) Gracias por verlo</h2>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
